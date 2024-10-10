@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameOrg.GG</title>
+    <link rel="icon" href="Assets/FavIcon.png">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="scrollup">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <span class="menu-btn material-symbol-rounded">☰</span>
+        <a href="#" class="logo">
+            <img src="Assets/GameOrg.GG Logo.png" alt="logo">
+            <h2>GameOrg.GG</h2>
+        </a>
+        <ul class="links">
+            <span class="close-btn material-symbol-rounded">✖</span>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#timeline" >Topics</a></li>
+            <li><a href="#teams" >Teams</a></li>
+        </ul>
+        <button class="login-btn">LOG IN</button>
+    </nav>
+    <!--Login-->
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbol-rounded">✖</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us</p>
+            </div>
+        <div class="form-content">
+            <h2>LOGIN</h2>
+            <form action="#">
+                <div class="input-field" required>
+                    <input type="text">
+                    <label>Email</label>
+                </div>
+                <div class="input-field" required>
+                    <input type="password">
+                    <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass">Forgot Password?</a>
+                <button type="submit">Log In</button>
+            </form>
+        
+            <div class="bottom-link">
+                Don't have an account?
+                <a href="#" id="signup-link">Sign Up</a>
+            </div>
+        </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become part of our community, please sign up using your personal information.</p>
+            </div>
+        <div class="form-content">
+            <h2>SIGN UP</h2>
+            <form action="#">
+                <div class="input-field" required>
+                    <input type="text">
+                    <label>Enter your Email</label>
+                </div>
+                <div class="input-field" required>
+                    <input type="password">
+                    <label>Create password</label>
+                </div>
+                <div class="policy-text">
+                    <input type="checkbox" id="policy">
+                    <label for="policy">
+                        I agree the
+                        <a href="#">Terms & Conditions</a>
+                    </label>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        
+            <div class="bottom-link">
+                Already have an account?
+                <a href="#" id="login-link">Log In</a>
+            </div>
+        </div>
+        </div>
+    </div>
+     <!--main-->
+     <main>
+        <!--hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">
+                        HoK Cebu Community
+                    </h2>
+                    <h3 class="subtitle">
+                        Get Updated In Tournaments and Special Events
+                    </h3>
+                    <p class="description">
+                        Whether you're a competitive and casual player or a passionate fan, GameOrg.GG keeps you in the loop with real-time news, highlights, and coverage of key tournaments.
+                    </p>
+    
+                    <div class="buttons">
+                        <a href="#" class="button Join-Teams">Join Teams</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="Assets/Wukong.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!--About section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="Assets/cebu.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Welcome to GameOrg.GG, the ultimate destination for esports enthusiasts! Our mission is to connect the gaming community by providing up-to-date coverage on tournaments, special events, and team news, with a focus on the vibrant Cebu esports scene. We are passionate about esports and committed to delivering high-quality content that keeps you informed and engaged. At GameOrg.GG, we spotlight local teams, celebrate their victories, and follow their journey through the competitive landscape. Whether it's breaking news, tournament schedules, or in-depth features on your favorite teams, we strive to bring you closer to the action. Our platform is designed for gamers, by gamers. We aim to foster a thriving community where players, fans, and teams can interact, share, and grow together. Stay with us for all things esports—because at GameOrg.GG, the game never stops.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--timeline-->
+        <section class="timeline-section" id="timeline">
+            <div class="section-content">
+                <div class="timeline-details">
+                     
+                    <h2 class="section-title">3 Degrees Esports Triumphs in Cebu's First Honor of Kings Tournament</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/3 degrees logo.jpg" alt="3-degrees-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The Cebu esports scene recently witnessed a historic event as 3 Degrees Esports claimed victory in the first-ever Honor of Kings (HoK) tournament held at The Outlets at Pueblo Verde. Facing intense competition from top local teams, 3 Degrees Esports showcased exceptional skill and teamwork throughout the tournament. Their strategic gameplay and adaptability allowed them to rise above the challenges and secure the championship title. This win not only marks a significant achievement for the team but also highlights the growing esports community in Cebu, setting a new standard for future tournaments in the region.
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/1st tourna.jpg" alt="first-tourna" class="tournament-pics">
+                    </div>
+    
+                    <h2 class="section-title">OTOG Esports Triumphs at the HoK Tempest Cup Qualifiers in Cebu</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/OTOG esports logo.jpg" alt="OTOG-Esports-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The Cebu esports scene recently celebrated a thrilling victory as OTOG Esports triumphed in the HoK Tempest Cup qualifiers. Facing fierce competition from top local teams, OTOG showcased outstanding skill and teamwork throughout the event. Their strategic gameplay and quick adaptability allowed them to overcome challenges and secure the top spot. This win not only elevates OTOG's status in the esports community but also emphasizes the vibrant growth of esports in Cebu, setting the stage for future tournaments.
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/2nd tourna.jpg" alt="second-tourna" class="tournament-pics">
+                    </div>
+    
+    
+                    <h2 class="section-title">PAPAP DOL Clinches Victory at the West Cebu Estate Tournament</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/PAPAP DOL logo.jpg" alt="PAPAP-DOL-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The Cebu esports community was electrified as PAPAP DOL emerged victorious in the West Cebu Estate Tournament held in Balamban. Competing against some of the region's best teams, PAPAP DOL demonstrated remarkable skill and coordination. Their strategic plays and teamwork allowed them to navigate through tough matches and ultimately claim the championship title. This victory not only cements PAPAP DOL's reputation in the esports scene but also highlights the burgeoning esports culture in Cebu, paving the way for future competitions.
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/3rd tourna.jpg" alt="third-tourna" class="tournament-pics">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+        <!--teams-->
+        <section class="teams-section" id="teams">
+            <h2 class="section-title">Organization Teams</h2>
+            <div class="section-content">
+                <div class="slider-container">
+                    <ul class="Team-list">
+                        <li class="teams">
+                            <img src="Assets/3 degrees logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">3 Degrees Esports</h3>
+                            <img src="Assets/OTOG esports logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">One Team One Goal [OTOG] Esports</h3>
+                            <img src="Assets/Thunder Pro Esports.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Thunder Pro Esports</h3>
+                            <img src="Assets/UAC Logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Uber Alles Philippines - Cebu</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="section-title">Unaffiliated Teams</h2>
+            <div class="section-content">
+                <div class="slider-container">
+                    <ul class="Team-list">
+                        <li class="teams">
+                            <img src="Assets/PAPAP DOL logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Papap Dol</h3>
+                            <img src="Assets/Duljo Esports Logo.png" alt="Team" class="team-logo">
+                            <h3 class="name">Duljo Esports</h3>
+                            <img src="Assets/Golden Dawn Esports Logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Golden Dawn Esports</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!--footer-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2024 GameOrg.GG </p>
+            </div>
+        </footer>
+        </main>
+</html>
