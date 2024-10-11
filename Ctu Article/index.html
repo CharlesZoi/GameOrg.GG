@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CpEBoys.Net</title>
+    <link rel="icon" href="Assets/Heroine.jpg">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="scrollup">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <span class="menu-btn material-symbol-rounded">☰</span>
+        <a href="#" class="logo">
+            <img src="Assets/Heroine.jpg" alt="logo">
+            <h2>CpEBoys.Net</h2>
+        </a>
+        <ul class="links">
+            <span class="close-btn material-symbol-rounded">✖</span>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li><a href="#timeline" >Topics</a></li>
+            <!--
+            <li><a href="#teams" >Teams</a></li>
+            -->
+        </ul>
+        <button class="login-btn">LOG IN</button>
+    </nav>
+    <!--Login-->
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbol-rounded">✖</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us</p>
+            </div>
+        <div class="form-content">
+            <h2>LOGIN</h2>
+            <form action="#">
+                <div class="input-field" required>
+                    <input type="text">
+                    <label>Email</label>
+                </div>
+                <div class="input-field" required>
+                    <input type="password">
+                    <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass">Forgot Password?</a>
+                <button type="submit">Log In</button>
+            </form>
+        
+            <div class="bottom-link">
+                Don't have an account?
+                <a href="#" id="signup-link">Sign Up</a>
+            </div>
+        </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become part of our community, please sign up using your personal information.</p>
+            </div>
+        <div class="form-content">
+            <h2>SIGN UP</h2>
+            <form action="#">
+                <div class="input-field" required>
+                    <input type="text">
+                    <label>Enter your Email</label>
+                </div>
+                <div class="input-field" required>
+                    <input type="password">
+                    <label>Create password</label>
+                </div>
+                <div class="policy-text">
+                    <input type="checkbox" id="policy">
+                    <label for="policy">
+                        I agree the
+                        <a href="#">Terms & Conditions</a>
+                    </label>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        
+            <div class="bottom-link">
+                Already have an account?
+                <a href="#" id="login-link">Log In</a>
+            </div>
+        </div>
+        </div>
+    </div>
+     <!--main-->
+     <main>
+        <!--hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">
+                        CpE Boys
+                    </h2>
+                    <h3 class="subtitle">
+                        Get Updated In Tournaments and Special Events
+                    </h3>
+                    <p class="description">
+                        Welcome to CpE Boys, your trusted source for the latest updates and events within the Cpe Boys. Stay informed and connected as we highlight the achievements, activities, and innovations of our community!
+                    </p>
+    
+                    <div class="buttons">
+                        <a href="https://www.youtube.com/watch?v=rY6ackhaPVI" target="_blank" class="button Join-Teams">Follow</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="Assets/Heroine3.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!--About section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="Assets/Heroine.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">ICpEP.News is dedicated to providing the latest news and updates on events and activities within the ICpEP.SE - CTU Danao Chapter. We cover key developments, student projects, and community events, keeping members connected and informed. Stay tuned as we celebrate the achievements of our organization and share insights that inspire the ICpEP community!
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--timeline-->
+        <section class="timeline-section" id="timeline">
+            <div class="section-content">
+                <div class="timeline-details">
+                     
+                    <h2 class="section-title">CPE Boys Reach Semis in National Programming Challenge</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/National Programming Challenge.jpg" alt="3-degrees-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The CPE Boys from ICpEP.SE - CTU Danao have advanced to the semifinals of the National Programming Challenge hosted by CodeChum! Competing against top talents from across the country, the team demonstrated exceptional coding skills and problem-solving abilities.
+
+                        Their journey to the semifinals reflects their dedication, teamwork, and expertise in computer engineering. As they prepare for the next round, the entire ICpEP community is rallying behind them.
+                        
+                        Best of luck to the CPE Boys as they continue to showcase their talent on the national stage!
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/SEMIS BOUND.jpg" alt="first-tourna" class="tournament-pics">
+                    </div>
+    
+                    <h2 class="section-title">CPE Boys Dominate Regional C Programming and ML Tournaments</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/Mel.jpg" alt="OTOG-Esports-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The CPE Boys from ICpEP.SE - CTU Danao have claimed victory in both the C Programming Challenge and the Mobile Legends (ML) Tournament at the regional level, earning the prestigious title of champions.
+
+                        Led by Mel James Calzada, who took home the C Programming Champion title, the team displayed remarkable skill in coding and gaming, outclassing their competitors in both arenas. Their hard work and teamwork have solidified their reputation as top contenders in the region.
+
+                        Congratulations to the CPE Boys for their outstanding achievements!
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/ML.jpg" alt="second-tourna" class="tournament-pics">
+                    </div>
+    
+    
+                    <h2 class="section-title">CPE Boys Shine in Mr. Pasundayag Runway Show, Bag 2nd Runner-Up</h2>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/Jl Dingcong.jpg" alt="PAPAP-DOL-logo" class="team-logo">
+                    </div>
+                    <p class="text">
+                        The CPE Boys proudly represented ICpEP.SE - CTU Danao in the Mr. Pasundayag runway show, where their charismatic contestant earned 2nd runner-up honors. The event was a spectacular showcase of style and confidence, with the CPE representative standing out among the crowd.
+
+                        In addition to their podium finish, the CPE Boys also took home the award for Best Fan Base, thanks to the overwhelming support and energy from their supporters, who outshone the other contestants.
+
+                        Congratulations to the CPE Boys for their impressive performance and for rallying an incredible community spirit!
+                    </p>
+                    <div class="timeline-image-wrapper">
+                        <img src="Assets/supporters.jpg" alt="third-tourna" class="tournament-pics">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+        <!--teams
+        <section class="teams-section" id="teams">
+            <h2 class="section-title">Organization Teams</h2>
+            <div class="section-content">
+                <div class="slider-container">
+                    <ul class="Team-list">
+                        <li class="teams">
+                            <img src="Assets/3 degrees logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">3 Degrees Esports</h3>
+                            <img src="Assets/OTOG esports logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">One Team One Goal [OTOG] Esports</h3>
+                            <img src="Assets/Thunder Pro Esports.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Thunder Pro Esports</h3>
+                            <img src="Assets/UAC Logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Uber Alles Philippines - Cebu</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="section-title">Unaffiliated Teams</h2>
+            <div class="section-content">
+                <div class="slider-container">
+                    <ul class="Team-list">
+                        <li class="teams">
+                            <img src="Assets/PAPAP DOL logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Papap Dol</h3>
+                            <img src="Assets/Duljo Esports Logo.png" alt="Team" class="team-logo">
+                            <h3 class="name">Duljo Esports</h3>
+                            <img src="Assets/Golden Dawn Esports Logo.jpg" alt="Team" class="team-logo">
+                            <h3 class="name">Golden Dawn Esports</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        -->
+        
+        <!--footer-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2024 CpE Boys </p>
+            </div>
+        </footer>
+        </main>
+</html>
